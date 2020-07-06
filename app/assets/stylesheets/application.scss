@@ -1,0 +1,287 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+	min-height: 100vh;
+	position:relative;
+	background-color: #FFFFEE;
+}
+
+header {
+
+	height: 100px;
+	text-align: center;
+
+}
+
+.nav-list-item {
+	font-family: 'Sawarabi Mincho', sans-serif;
+	display: inline-block;
+	margin: 0 20px;
+	line-heigt: 100px;
+	font-size: 20px;
+	list-style: none;
+
+}
+
+.nav-list {
+	text-align: center;
+	}
+
+.headline {
+	font-size: 30px;
+	font-family: 'Sacramento', cursive;
+	padding-top: 15px;
+
+}
+
+.and {
+	font-size: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	background-color: #FFFFEE;
+	/*position: absolute;
+	bottom: 0;*/
+	border-top: 1px solid black;
+
+}
+
+.footer-text {
+	text-align: center;
+	font-size:20px;
+	line-height: 120px;
+	font-family: 'Sacramento', cursive;
+}
+
+.space {
+	margin: 0 25px;
+}
+
+
+.main {
+	height: 400px;
+
+}
+
+.container {
+	margin-top: 70px;
+	
+}
+
+.form-user {
+	border: 1px solid #00FFFF;
+	background-color: white;
+	box-shadow : 0px 6px 9px 4px #808080;
+	padding: 20px;
+
+}
+
+.form-header {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	
+}
+
+.form-header-title {
+	
+
+}
+
+.btn-base-1 {
+	background-color: #1f3a93;
+	color: white;
+}
+
+
+.form-control-icon {
+
+}
+
+.about {
+	
+}
+
+.top {
+}
+
+.top-image {
+	background-image:url(3534082_m.jpg);
+	background-color:rgba(255,255,255,0.3);
+	background-blend-mode:lighten;
+	height: 550px;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.about-title {
+	color: #000000;
+	text-align: center;
+	padding-top: 130px;
+	font-size: 50px;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.about-text {
+	text-align: center;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	color: #000000;
+	word-wrap: break-word;
+	font-size: 30px;
+	margin: 0 150px;
+	font-style: italic;
+}
+
+.about-conteiner {
+	
+}
+
+
+
+
+.second {
+	width: 100%;
+	height:400px;
+}
+
+
+.second-image {
+	background-image:url(IMG_3607.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	float: left;
+	width: 50%;
+
+
+
+
+}
+
+.second-text {
+	background-color: #CEF9DC;
+	height: 400px;
+	width: 50%;
+	float: right;
+
+
+
+
+}
+
+
+.third {
+	width: 100%;
+	height:400px;
+}
+
+
+.third-text {
+	background-color: #CEF9DC;
+	height: 400px;
+	width: 50%;
+}
+
+.sub-text {
+	text-align: centr;
+	padding: 200px 50px 0px 50px;
+	font-style: italic;
+
+	font-size: 20px;
+	word-wrap: break-word;
+	color: #000000;
+
+
+}
+
+
+.third-image {
+	background-image:url(1973102_l.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 50%;
+	float: right;
+
+}
+
+.end {
+
+}
+
+.end-image {
+	background-image:url(7578_s.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
+
+.about-container2 {
+	padding-top:50px;
+	position: absolute;
+	top: 45%;
+	left:45%;
+
+}
+
+
+.btn-square-pop {
+
+	  position: relative;
+	  display: inline-block;
+	  padding: 0.25em 0.5em;
+	  text-decoration: none;
+	  color: #FFF;
+	  background: #fd9535;
+	  border-bottom: solid 2px #d27d00;
+	  border-radius: 4px;
+	  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+	  font-weight: bold;
+}
+
+.btn-square-pop:active {
+	  border-bottom: solid 2px #fd9535;
+	  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.end-text {
+	padding: 20% 25%;
+	font-size: 20px;
+	word-wrap: break-word;
+	color: #000000;
+}
+
