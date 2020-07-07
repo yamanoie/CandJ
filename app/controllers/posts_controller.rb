@@ -6,8 +6,19 @@ class PostsController < ApplicationController
   end
 
   def new
+  	@blog = Blog.new
+  end
+  def create
+  	blog = Blog.new(blog_params)
+  	blog.save
+  	redirect_to posts_path
   end
 
   def edit
+  end
+
+private
+  def blog_params
+  	params.require(:blog).oermit(:title, :body)
   end
 end
