@@ -1,0 +1,5 @@
+<h2>INDEX</h2>
+<% @blogs.each do |blog| %>
+	<%= link_to blog.title, blog_path(blog) %>
+	<p><%= blog.created_at %></p>
+<% end %>
