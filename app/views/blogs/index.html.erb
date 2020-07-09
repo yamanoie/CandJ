@@ -1,5 +1,7 @@
 <h2>INDEX</h2>
 <% @blogs.each do |blog| %>
+	<%= attachment_image_tag blog, :image, :fill,400, 400, format: "jpeg" %>
 	<%= link_to blog.title, blog_path(blog) %>
+	<p><%= blog.body %></p>
 	<p><%= blog.created_at %></p>
 <% end %>

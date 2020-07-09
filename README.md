@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+スレッド
+ツイート
+画像投稿
+いいね
+いいねの多い順
